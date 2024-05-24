@@ -22,13 +22,11 @@ public class exp04 {
         System.out.println("Multiplication of two numbers: " + Math.multiplyExact(num1, num2));
 
         // Division (Handled division separately to avoid ArithmeticException for division by zero)
-        if (num2 != 0) {
+        if (num1 != 0 && num2 !=0) {
             System.out.println("Division of two numbers: " + (double) num1 / num2);
         } else {
             System.out.println("Division by zero is not allowed.");
         }
-
-        sc.close();
     }
 }
 
